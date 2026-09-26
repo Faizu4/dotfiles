@@ -1,5 +1,6 @@
 # .zshrc
 
+precmd() { printf '\033[5 q'; }
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins= (
